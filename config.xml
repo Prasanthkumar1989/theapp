@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.bencbond.phonegaplogin"
+    id        = "com.itsprasanth.phonegaplogin"
     version   = "1.0.0">
 
 <name>Phonegap Login System</name>
@@ -10,8 +10,8 @@
 This app creates a login system for phonegap
 </description>
 
-<author href="https://bencbond.com" email="bencbond@gmail.com">
-Ben Bond
+<author href="https://itsprasanth.com" email="prasanth.kb5@gmail.com">
+Prasanth kumar
 </author>
 
 <preference name="fullscreen" value="true" />
