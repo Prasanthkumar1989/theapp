@@ -13,7 +13,7 @@ This app creates a login system for phonegap
 <author href="https://itsprasanth.com" email="prasanth.kb5@gmail.com">
 Prasanth kumar
 </author>
-
+<icon src="img/logo.png" />
 <preference name="fullscreen" value="true" />
 <preference name="show-splash-screen-spinner" value="true" />
 <feature name="http://api.phonegap.com/1.0/battery"/>
