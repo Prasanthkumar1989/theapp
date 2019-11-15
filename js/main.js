@@ -104,6 +104,10 @@ $.getJSON(domain+'/json_backend.php?callback=?','un='+un+'&action='+action,funct
      }
      function logOutReady(){
       window.localStorage.removeItem("username");
-          window.localStorage.removeItem("password");
-          window.location = "index.html";
+        window.localStorage.removeItem("password");
+        window.sessionStorage.removeItem('username');
+        window.sessionStorage.removeItem('password');
+        window.localStorage.clear();
+        window.location = "index.html";
+        console.log(localStorage);
      }
