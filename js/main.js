@@ -99,7 +99,7 @@ $.getJSON(domain+'/json_backend.php?callback=?','un='+un+'&action='+action,funct
 
      function logout()
      {  
-      document.addEventListener("deviceready", logOutReady, false);
+      logOutReady();
           
      }
      function logOutReady(){
