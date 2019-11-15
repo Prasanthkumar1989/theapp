@@ -4,10 +4,10 @@
     id        = "com.itsprasanth.phonegaplogin"
     version   = "1.0.0">
 
-<name>Phonegap Login System</name>
+<name>Login System</name>
 
 <description>
-This app creates a login system for phonegap
+This app creates a login system for mobile
 </description>
 
 <author href="https://itsprasanth.com" email="prasanth.kb5@gmail.com">
