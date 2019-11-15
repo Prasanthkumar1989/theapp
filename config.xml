@@ -13,6 +13,13 @@ This app creates a login system for phonegap
 <author href="https://itsprasanth.com" email="prasanth.kb5@gmail.com">
 Prasanth kumar
 </author>
+<platform name="android">
+    <allow-intent href="market:*" /> 
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    </platform>
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 <icon src="img/logo.png" />
 <preference name="fullscreen" value="true" />
 <preference name="show-splash-screen-spinner" value="true" />
